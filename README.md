@@ -1,43 +1,77 @@
-# Astro Starter Kit: Minimal
+# Oliver Chu Barbosa
+
+Civil engineering portfolio website for Oliver Chu Barbosa, an undergraduate civil engineering student at UNSW.
+
+The site presents Oliver's selected engineering work across geotechnical, structural, architectural, environmental, and mechanical design projects. It is built as a static Astro site and includes responsive project galleries with an image lightbox.
+
+## Live Site
+
+https://oliverbarbosa.com
+
+## Portfolio Content
+
+The portfolio currently includes:
+
+- Contaminated Parramatta Light Rail Yard Solution: remediation option screening, concrete water tank design, retaining wall concepts, and bored pile foundation design.
+- House and Complex Revit Designs: residential and community-building Revit models, documentation sheets, plans, elevations, schedules, and takeoffs.
+- Morphing Airfoil: CAD modelling, compliant mechanism design, Arduino-driven testing, and wind tunnel validation.
+
+Key capability areas shown on the site include remediation option screening, structural calculations, Revit documentation, CAD modelling, Australian Standards work, and technical reporting.
+
+## Tech Stack
+
+- Astro
+- Static HTML, CSS, and JavaScript
+- Public assets served from `public/assets`
+- Open Graph and Twitter card metadata for link previews
+
+## Local Development
+
+This project uses Bun and requires Node.js `>=22.12.0`.
 
 ```sh
-bun create astro@latest -- --template minimal
+bun install
+bun run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Open the local development server shown in the terminal, usually:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```txt
+http://localhost:4321
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Build
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```sh
+bun run build
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+The static site is generated into `dist/`.
 
-## 🧞 Commands
+To preview the production build locally:
 
-All commands are run from the root of the project, from a terminal:
+```sh
+bun run preview
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+## Project Structure
 
-## 👀 Want to learn more?
+```txt
+public/
+  assets/          Portfolio images and project gallery assets
+  favicon.ico
+  favicon.svg
+  script.js        Lightbox behavior
+  styles.css       Site styling
+src/
+  pages/
+    index.astro    Homepage markup and metadata
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Notes
+
+The link preview image is configured in `src/pages/index.astro` using Open Graph metadata and points to:
+
+```txt
+https://oliverbarbosa.com/assets/portfolio-collage.jpg
+```

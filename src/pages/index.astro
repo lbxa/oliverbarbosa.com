@@ -1,0 +1,417 @@
+---
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oliver's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for Oliver Chu Barbosa, an undergraduate civil engineering student at UNSW."
+    />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/styles.css?v=2" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Oliver Chu Barbosa home">
+        <span>Oliver's Portfolio</span>
+      </a>
+      <nav aria-label="Portfolio navigation">
+        <a href="#projects">Projects</a>
+        <a href="#capabilities">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Undergraduate Civil Engineering Student at UNSW</p>
+          <h1>Practical design. Modelling. Analysis.</h1>
+          <p class="intro">
+            Clarity doesn't come from the thinking, it comes from doing.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a
+              class="button secondary"
+              href="mailto:Oliver.Chu.Barbosa@gmail.com">Email Me</a
+            >
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Portfolio snapshot">
+          <img
+            src="/assets/portfolio-collage.jpg"
+            alt="Collage of Oliver Chu Barbosa portfolio project images"
+          />
+          <dl>
+            <div>
+              <dt>4</dt>
+              <dd>Major project areas</dd>
+            </div>
+            <div class="hero-discipline">
+              <dt>
+                <span>Geotechnical.</span>
+                <span>Structural.</span>
+                <span>Architectural.</span>
+                <span>Mechanical.</span>
+              </dt>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section
+        class="section-strip"
+        id="capabilities"
+        aria-labelledby="skills-title"
+      >
+        <div>
+          <p class="eyebrow">Capabilities</p>
+          <h2 id="skills-title">
+            Civil engineering skills with clear technical evidence.
+          </h2>
+        </div>
+        <ul class="skill-list">
+          <li>Remediation option screening</li>
+          <li>Structural calculations</li>
+          <li>Revit documentation</li>
+          <li>CAD modelling</li>
+          <li>AS:4100, AS:3600, and AS:1684</li>
+          <li>Technical reporting</li>
+        </ul>
+      </section>
+
+      <section class="projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+
+        <article class="project featured">
+          <div class="project-visuals">
+            <p class="gallery-kicker">Take a closer look.</p>
+            <div class="project-media project-gallery image-grid">
+              <img
+                src="/assets/pdf-images/page01_image03.png"
+                alt="Contaminant plume maps for Camellia site"
+                data-legend="/assets/pdf-images/page01_image02.png"
+                data-legend-alt="Contaminant legend for groundwater, chloroform, carbon tetrachloride, and hexavalent chromium"
+              />
+              <img
+                class="gallery-wide"
+                src="/assets/pdf-images/page01_image04.png"
+                alt="Conceptual site model for contamination exposure pathways"
+                data-legend="/assets/pdf-images/page01_image05.png"
+                data-legend-alt="Exposure pathway symbol legend"
+              />
+              <img
+                src="/assets/pdf-images/page02_image01.jpg"
+                alt="Hand sketch of concrete water tank geometry"
+              />
+              <img
+                src="/assets/pdf-images/page02_image02.png"
+                alt="Bored pile spacing and arrangement diagram"
+              />
+              <img
+                src="/assets/pdf-images/page02_image03.png"
+                alt="Remediation option assessment matrix"
+              />
+              <img
+                src="/assets/pdf-images/page02_image04.png"
+                alt="Foundation and soil profile diagram"
+              />
+              <img
+                class="gallery-wide"
+                src="/assets/pdf-images/page02_image05.png"
+                alt="Engineering drawing for tank and site details"
+              />
+            </div>
+          </div>
+          <div class="project-copy">
+            <p class="project-type">Environmental and civil design</p>
+            <h3>Contaminated Parramatta Light Rail Yard Solution</h3>
+            <div class="three-col">
+              <div>
+                <h4>What</h4>
+                <ul>
+                  <li>
+                    Designed a remediation strategy for the contaminated site in
+                    Camellia, NSW, intended for a light rail stabling yard and
+                    maintenance facility.
+                  </li>
+                  <li>
+                    Designed a concrete water tank to supply future residential
+                    developments and provide emergency fire support.
+                  </li>
+                  <li>
+                    Conceptualised a detailed design of retaining walls and a
+                    33-pile foundation system socketed into shale bedrock.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4>How</h4>
+                <ul>
+                  <li>
+                    Screened 15+ remediation technologies via FRTR guidelines
+                    and cost-benefit analysis.
+                  </li>
+                  <li>
+                    Modelled tank geometry through sketches; calculated flexural
+                    capacity and added horizontal stiffeners to ensure stability
+                    without thickening walls.
+                  </li>
+                  <li>
+                    Calculated lateral earth pressures, verified wall
+                    deflection, and designed 33 bored piles with end-bearing
+                    into shale.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <ul>
+                  <li>
+                    Recommended Monitored Natural Attenuation (MNA) for lowest
+                    cost and minimal site disturbance.
+                  </li>
+                  <li>
+                    Delivered a water tank with 451.7 kN/m moment capacity while
+                    reducing wall thickness and construction costs.
+                  </li>
+                  <li>
+                    Designed a pile system supporting a 48 MN vertical load with
+                    settlement under 4 mm, using a hexagonal grid for even load
+                    distribution.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-visuals">
+            <p class="gallery-kicker">Take a closer look.</p>
+            <div class="project-media project-gallery">
+              <img
+                src="/assets/pdf-images/page03_image04.png"
+                alt="Revit model of the residential complex"
+              />
+              <img
+                src="/assets/pdf-images/page03_image01.png"
+                alt="Residential house Revit front render"
+              />
+              <img
+                src="/assets/pdf-images/page03_image02.png"
+                alt="Residential kitchen Revit render"
+              />
+              <img
+                src="/assets/pdf-images/page03_image03.png"
+                alt="Formal lounge Revit render"
+              />
+              <img
+                src="/assets/pdf-images/page03_image05.png"
+                alt="Community centre Revit exterior render"
+              />
+              <img
+                src="/assets/pdf-images/page03_image06.png"
+                alt="Residential floor plan documentation"
+              />
+              <img
+                src="/assets/pdf-images/page03_image07.png"
+                alt="Revit site and documentation sheet"
+              />
+              <img
+                src="/assets/pdf-images/page03_image08.png"
+                alt="Apartment building section drawing"
+              />
+            </div>
+          </div>
+          <div class="project-copy">
+            <p class="project-type">Revit and construction documentation</p>
+            <h3>House and Complex Revit Designs</h3>
+            <div class="three-col">
+              <div>
+                <h4>What</h4>
+                <ul>
+                  <li>
+                    Completed a residential house design at 10 Flinders Street,
+                    including site plan, floor plans, elevations, and room
+                    schedules.
+                  </li>
+                  <li>
+                    Designed a multi-building community residential project at
+                    22-25 Rothschild Ave, Rosebery, NSW.
+                  </li>
+                  <li>
+                    Compiled Revit 2025 sheet documentation for both designs.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4>How</h4>
+                <ul>
+                  <li>
+                    Built 3D models of apartments and community centre using
+                    Autodesk Revit.
+                  </li>
+                  <li>
+                    Applied AS1100 material patterns and line weights for
+                    construction documentation.
+                  </li>
+                  <li>
+                    Produced cover pages, site plans, floor plans,
+                    north/south/east/west elevations, sections, room schedules,
+                    and quantity takeoffs.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <ul>
+                  <li>
+                    Demonstrated proficiency in Revit worksharing, clash
+                    detection, sheet management, and AS1100 drafting standards.
+                  </li>
+                  <li>
+                    Built skills directly transferable to a trainee drafter role
+                    using AutoCAD or 12D.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-visuals">
+            <p class="gallery-kicker">Take a closer look.</p>
+            <div class="project-media project-gallery">
+              <img
+                src="/assets/pdf-images/page04_image03.jpg"
+                alt="Morphing airfoil prototype mounted for testing"
+              />
+              <img
+                src="/assets/pdf-images/page04_image06.png"
+                alt="Completed morphing airfoil prototype"
+              />
+              <img
+                src="/assets/pdf-images/page04_image01.png"
+                alt="CAD model of NACA 0015 airfoil"
+              />
+              <img
+                src="/assets/pdf-images/page04_image02.png"
+                alt="CAD model of compliant airfoil mechanism"
+              />
+              <img
+                src="/assets/pdf-images/page04_image04.jpg"
+                alt="Wind tunnel testing setup for morphing airfoil"
+              />
+              <img
+                src="/assets/pdf-images/page04_image05.png"
+                alt="Arduino code used for airfoil testing"
+              />
+            </div>
+          </div>
+          <div class="project-copy">
+            <p class="project-type">Mechanical prototype and testing</p>
+            <h3>Morphing Airfoil</h3>
+            <div class="three-col">
+              <div>
+                <h4>What</h4>
+                <ul>
+                  <li>
+                    Designed and manufactured a morphing airfoil with a
+                    compliant acrylic mechanism and NACA 0015 airfoil.
+                  </li>
+                  <li>
+                    Responsible for compliant mechanism design, leading edge
+                    CAD, problem statement, and reports.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4>How</h4>
+                <ul>
+                  <li>
+                    Selected NACA 0015 for 15% thickness, balancing structural
+                    rigidity and lift/drag ratio.
+                  </li>
+                  <li>
+                    Used CAD tools, including extrude cut and insert curve
+                    through XYZ points, to model the airfoil and compliant ribs.
+                  </li>
+                  <li>
+                    Programmed Arduino with simple loop-based angle inputs,
+                    without a manual knob, for fast testing.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <ul>
+                  <li>
+                    Wind tunnel testing confirmed the morphed configuration
+                    achieved higher lift-to-drag ratio than the non-morphed
+                    configuration, validating Bernoulli's principle.
+                  </li>
+                  <li>
+                    Delivered a lightweight, functional morphing wing tested in
+                    a 300 mm x 300 mm wind tunnel with measurable lift/drag
+                    data.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">
+            Available for undergraduate engineering opportunities.
+          </h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:Oliver.Chu.Barbosa@gmail.com"
+            >Oliver.Chu.Barbosa@gmail.com</a
+          >
+          <a href="tel:+61401292798">0401 292 798</a>
+          <a href="https://www.linkedin.com/in/chubarbosao"
+            >linkedin.com/in/chubarbosao</a
+          >
+          <span>Sydney, Australia</span>
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="lightbox"
+      id="lightbox"
+      aria-hidden="true"
+      role="dialog"
+      aria-label="Expanded project image"
+    >
+      <button
+        class="lightbox-close"
+        type="button"
+        aria-label="Close expanded image">&times;</button
+      >
+      <div class="lightbox-content">
+        <img class="lightbox-image" src="" alt="" />
+        <img class="lightbox-legend" src="" alt="" />
+      </div>
+    </div>
+
+    <script is:inline src="/script.js"></script>
+  </body>
+</html>

@@ -54,6 +54,17 @@ To preview the production build locally:
 bun run preview
 ```
 
+## Cloudflare Workers Deployment
+
+The site is configured for Cloudflare Workers static assets in `wrangler.jsonc`.
+
+```sh
+bun run deploy:dry-run
+bun run deploy
+```
+
+The Worker name is `oliverbarbosa`, and the Worker serves the Astro build output from `dist/`.
+
 ## Project Structure
 
 ```txt
